@@ -1,0 +1,13 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    color:rgb(107, 90, 64);
+}
+
+
+.text{
+    color:blue;
+    position:fixed;
+}
