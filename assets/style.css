@@ -1,0 +1,44 @@
+:root {
+    --01_color: blue; 
+    --02_color: green; 
+    --light: rgb(255, 250, 184);
+    --dark: rgb(12, 13, 19); 
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: radial-gradient(var(--01_color), var(--02_color));
+}
+
+.top {
+    /* adjust header and nav to look nice */
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: space-between;
+
+    /* styling */
+    background-color: var(--light);
+
+    /* for fixed position and display same way */
+    position: sticky; 
+    top: 0;
+    
+
+}
+
+header {
+    display:flex;
+}
+
+nav ul li {
+    display: inline;
+}
+
+#contact ul li {
+    list-style: none;
+}
+
